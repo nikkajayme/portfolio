@@ -23,11 +23,11 @@ p {
   letter-spacing: 1px;
   line-height: 1.7;
   font-family: 'Space Mono', monospace;
-  color: #badc84;
+  color: #bad889;
 }
 
 strong {
-  color: #f46036;
+  color: #eb795a;
   font-weight: 400;
 }
 
@@ -90,7 +90,7 @@ a:hover {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem 2rem;
-  border: 1px solid #badc84;
+  border: 1px solid #bad889;
   border-radius: 2rem;
   color: #8fbeaf;
   -webkit-transition: border-color 100ms ease-in-out;
@@ -129,7 +129,7 @@ a:hover {
   border-right: 1px solid #afa146;
   font-weight: 300;
   font-family: 'Space Mono', monospace;
-  color: #f46036;
+  color: #eb795a;
 }
 
 .sec-3 {
@@ -189,6 +189,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   color: #8fbeaf;
+  letter-spacing: 0.5px;
 }
 
 .sec-3 footer ul {
@@ -218,14 +219,14 @@ a:hover {
 
 .sec-4 li {
   padding: 1rem;
-  color: #f46036;
+  color: #eb795a;
 }
 
 .sec-4 .email {
   margin-top: 2.5rem;
 }
 
-footer {
+.footer {
   text-align: center;
   letter-spacing: 0px;
   font-size: 0.8rem;
@@ -490,12 +491,8 @@ nav li {
     width: 1.2rem;
     height: 1.2rem;
   }
-  footer {
-    text-align: center;
-    letter-spacing: 0px;
+  .footer {
     font-size: 0.7rem;
-    color: #0073ff;
-    padding-bottom: 2rem;
   }
 }
 
