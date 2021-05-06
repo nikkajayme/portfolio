@@ -14,6 +14,7 @@ const mobile_menu = () => {
 mobile_menu();
 
 const mobile_menu_links = () => {
+	const burger = document.querySelector('.hamburger');
 	const mLinks = document.querySelectorAll('.m-link');
 	const menu = document.querySelector('.menu');
 	const body = document.querySelector('.scroll');
@@ -24,6 +25,7 @@ const mobile_menu_links = () => {
 				menu.classList.toggle('menu-active');
 				body.classList.toggle('overflow');
 				hide.classList.toggle('hide');
+				burger.classList.toggle('toggle');
 			});
 		});
 };
